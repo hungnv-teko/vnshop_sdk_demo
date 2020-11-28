@@ -24,8 +24,8 @@ allprojects {
             url = uri("https://maven.pkg.github.com/teko-vn/vnshop-android")
 
             credentials {
-                username "hungnv-teko"
-                password "63278628216f1c83cccf5b148d98d43306d5520b"
+                username "GithubMaven"
+                password "8bd4e8e8692b72b04b95cca058e05d52b31ab222"
             }
         }
     }
