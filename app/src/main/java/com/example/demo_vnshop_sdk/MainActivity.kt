@@ -11,6 +11,7 @@ import vn.teko.android.auth.login.provider.AUTH_MANAGER_EXTRA_CUSTOM_TOKEN_IDTOK
 import vn.teko.android.auth.login.provider.AUTH_MANAGER_EXTRA_CUSTOM_TOKEN_PROVIDER
 import vn.teko.android.auth.login.provider.AUTH_MANAGER_RC_LOGIN
 import vn.teko.android.auth.login.provider.LoginType
+import vn.teko.android.core.util.Result
 import vn.teko.hestia.android.TerraHestia
 import vn.teko.hestia.android.utils.uiHelper.DefaultAndroidHestiaUIHelper
 import vn.teko.terra.core.android.terra.TerraApp
@@ -41,7 +42,16 @@ class MainActivity : AppCompatActivity() {
             )
             putExtra(AUTH_MANAGER_EXTRA_CUSTOM_TOKEN_PROVIDER, "icheck")
         }
-        loginManager.processLoginResult(AUTH_MANAGER_RC_LOGIN, Activity.RESULT_OK, data) {}
+        loginManager.processLoginResult(AUTH_MANAGER_RC_LOGIN, Activity.RESULT_OK, data) {result ->
+            when(result) {
+                is Result.Success -> {
+                    //Login Success
+                }
+                is Result.Failure -> {
+                    //Login Failure
+                }
+            }
+        }
     }
 
     private fun openVnshop() {
