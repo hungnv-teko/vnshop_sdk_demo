@@ -9,8 +9,8 @@ class SampleApplication : Application() {
 
         TerraApp.initializeApp(
             application = this,
-            clientId = "icheck:android:playstore:0.0.1",
-            defaultConfigName = "icheck_pandora_config.json"
+            clientId = "cyhome:android:playstore:0.0.1",
+            defaultConfigName = "cyhome_pandora_config.json"
         )
     }
 }
