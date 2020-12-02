@@ -1,13 +1,11 @@
 {
-  "data": {
-    "@type": "type.googleapis.com/terra.v1.Pandora",
-    "config": "PN9jqqKJWYrE93rzF8xki+hb4SREVsM5L7bA4VQLGK4dC/kX2mf2FM5jvgs+BVXAV3FMz7BVYGyL6cpNYyAvHZ92VzcCFwEm+hQHJ7JwHg==",
-    "services": [
-      {
-        "name": "IAM",
-        "code": "iam",
-        "config": "hPnGdaOHxZIv0K1aa9IA/nEwiZ6CCE4Dc3usPOzS0faZWrDYVgRYVtArXfAoyjOKsTPGqWhQUJvto979xDy1xrT4MX0jaFT7Yruq2Lg6lMPwAy6fMed8AGcBfmsxBkH/pMbD+dSMEy5JCqJYGBtxe2L8MXnGIPSdrJy7mOlfevhCf2s4bDGp7FZXTTLz4La/heOsqgDeuHus/OJfyazvh8EKxAYz/beObSEwHBPtx71ykK+ATvYHpHaLlcluc2aeOkrswLf8keSFZ58OUMT75erW0uw7prOiqyhqZ8/3NE9qj9EQdSdkW++WkPUlcU8fdMtWC06D8ycbH5xYdrrvyxqEkvC674clgekxt9DGMHnEA08BoRzjPVY0Qk/+p8duh4Om0eTyU3DEVzvodfxVfRtSwU4la0YwqA2yvWWsUaY="
-      }
-    ]
-  }
+  "@type": "type.googleapis.com/terra.v1.Pandora",
+  "config": "PN9jqqKJWYrE93rzF8xki+hb4SREVsM5L7bA4VQLGK4dC/kX2mf2FM5jvgs+BVXAV3FMz7BVYGyL6cpNYyAvHZ92VzcCFwEm+hQHJ7JwHg==",
+  "services": [
+    {
+      "name": "IAM",
+      "code": "iam",
+      "config": "hPnGdaOHxZIv0K1aa9IA/nEwiZ6CCE4Dc3usPOzS0faZWrDYVgRYVtArXfAoyjOKsTPGqWhQUJvto979xDy1xrT4MX0jaFT7Yruq2Lg6lMPwAy6fMed8AGcBfmsxBkH/pMbD+dSMEy5JCqJYGBtxe2L8MXnGIPSdrJy7mOlfevhCf2s4bDGp7FZXTTLz4La/heOsqgDeuHus/OJfyazvh8EKxAYz/beObSEwHBPtx71ykK+ATvYHpHaLlcluc2aeOkrswLf8keSFZ58OUMT75erW0uw7prOiqyhqZ8/3NE9qj9EQdSdkW++WkPUlcU8fdMtWC06D8ycbH5xYdrrvyxqEkvC674clgekxt9DGMHnEA08BoRzjPVY0Qk/+p8duh4Om0eTyU3DEVzvodfxVfRtSwU4la0YwqA2yvWWsUaY="
+    }
+  ]
 }
