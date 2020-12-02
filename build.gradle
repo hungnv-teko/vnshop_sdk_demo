@@ -25,7 +25,7 @@ allprojects {
 
             credentials {
                 username "GithubPackageReader"
-                password "b743c89802c68d8f063d8d90db8b05a4f7d8f57c"
+                password "1e2a7e2164769b48b0377ace71f594d02fe8a12f"
             }
         }
     }
