@@ -18,7 +18,7 @@ import vn.teko.hestia.android.utils.uiHelper.DefaultAndroidHestiaUIHelper
 import vn.teko.terra.core.android.terra.TerraApp
 
 class MainActivity : AppCompatActivity() {
-    private val terraApp = TerraApp.getInstance()
+    private val terraApp = TerraApp.getInstance("SampleApplication")
     private val authManager = TerraAuth.getInstance(terraApp)
     private val loginManager = TerraLogin.getInstance(terraApp)
     private val terraHestia = TerraHestia.getInstance(terraApp)
@@ -39,7 +39,7 @@ class MainActivity : AppCompatActivity() {
         val data = Intent().apply {
             putExtra(
                     AUTH_MANAGER_EXTRA_CUSTOM_TOKEN_IDTOKEN,
-                    "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjBkNTdhMGJlLTNlZDItNDJhMi1iM2U1LTM2Y2E3ZjkzMjEyMjQifQ.eyJzdWIiOjExMjM2OCwibmFtZSI6IlR14bqlbiBOZ3V54buFbiIsImVtYWlsIjoidHVhbkBnbWFpbC5jb20iLCJwaG9uZV9udW1iZXIiOiIwOTg3NjYzOTY3IiwicGljdHVyZSI6Imh0dHBzOi8vYXNzZXRzLmljaGVjay52bi9tdWx0aXBhcnQvMjAyMC9hcHAwMS85LzhhN2IwY2Y4NjFhOGQ1YzgwYjQzZTUzMWFkNjljODM0LnBuZyIsImFkZHJlc3MiOiIzNjggQ-G6p3UgR2nhuqV5IiwiYmlydGhkYXkiOiIxMi8yLzIwMDAiLCJhdWQiOiJpY2hlY2siLCJpYXQiOjE2MDY3MTk4MDIsImV4cCI6MTYwNjg5MjYwMiwiaXNzIjoibXlpc3N1ZXJuYW1lIn0.SpUqKWx3FPyzhjiyvjGcABc3E2Wj3TpCXuVPf4TQlnjD97V-yHwoHwdGbhOa9FSsWMfk8W-lKQtWy_eMCGWfvg"
+                    "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjBkNTdhMGJlLTNlZDItNDJhMi1iM2U1LTM2Y2E3ZjkzMjEyMjQifQ.eyJzdWIiOjExMjM2OCwibmFtZSI6IlR14bqlbiBOZ3V54buFbiIsImVtYWlsIjoidHVhbkBnbWFpbC5jb20iLCJwaG9uZV9udW1iZXIiOiIwOTg3NjYzOTY3IiwicGljdHVyZSI6Imh0dHBzOi8vYXNzZXRzLmljaGVjay52bi9tdWx0aXBhcnQvMjAyMC9hcHAwMS85LzhhN2IwY2Y4NjFhOGQ1YzgwYjQzZTUzMWFkNjljODM0LnBuZyIsImFkZHJlc3MiOiIzNjggQ-G6p3UgR2nhuqV5IiwiYmlydGhkYXkiOiIxMi8yLzIwMDAiLCJhdWQiOiJpY2hlY2siLCJpYXQiOjE2MTQ2NTU0ODcsImV4cCI6MTYxNDgyODI4NywiaXNzIjoibXlpc3N1ZXJuYW1lIn0.WderEG2q7XybdeYyi_Z7LfneTmvD1IdGN1O316rCPPE32t1_u0Ly57cBX9mByotQPYphO4e9TBRAhe_4S3GeUg"
             )
             putExtra(AUTH_MANAGER_EXTRA_CUSTOM_TOKEN_PROVIDER, "icheck")
         }

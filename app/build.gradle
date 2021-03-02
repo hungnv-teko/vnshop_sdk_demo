@@ -50,16 +50,16 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
 
     // Terra
-    implementation 'vn.teko.terra:terra-core-android:0.3.7'
+    implementation 'vn.teko.terra:terra-core-android:0.4.2'
 
     // Auth
-    implementation "vn.teko.android.auth:auth-core:0.1.10"
-    implementation "vn.teko.android.auth:auth-login:0.1.10"
+    implementation "vn.teko.android.auth:auth-core:0.1.11"
+    implementation "vn.teko.android.auth:auth-login:0.1.11"
 
     // Hestia
-    implementation "vn.teko.hestia:hestia-android:0.0.2"
-    implementation "vn.teko.hestia:hestia-android-native:0.0.2"
+    implementation "vn.teko.hestia:hestia-android:0.0.5"
+    implementation "vn.teko.hestia:hestia-android-native:0.0.5"
 
     // vnshop
-    implementation 'vn.teko.android.vnshop:vnshop-connector:1.3.5-stag'
+    implementation 'vn.teko.android.vnshop:vnshop-connector:1.4.99-staging'
 }

@@ -21,7 +21,7 @@ allprojects {
         maven { url "https://jitpack.io" }
         maven() {
             name = "TekoMaven"
-            url = uri("https://maven.pkg.github.com/teko-vn/vnshop-android")
+            url = uri("https://maven.pkg.github.com/teko-vn/android-packages")
 
             credentials {
                 username "GithubPackageReader"
